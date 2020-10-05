@@ -2,7 +2,7 @@
   "name": "vidly",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://touhidulshawan.github.io/vidly",
+  "homepage": "https://touhidulshawan.github.io/movies",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
