@@ -6,7 +6,7 @@ interface Count {
 
 const MovieCounter: React.FC<Count> = ({ count }) => {
   // check how many movies are there
-  let text = "There are no movies in database.";
+  let text = "There are no movie in database.";
   if (count === 1) {
     text = "There are 1 movie in database.";
   } else if (count > 1) {
@@ -14,9 +14,7 @@ const MovieCounter: React.FC<Count> = ({ count }) => {
   }
   return (
     <span
-      className={`mt-3 alert d-block ${
-        count ? "alert-success" : "alert-danger"
-      }`}
+      className={`alert d-block ${count ? "alert-success" : "alert-danger"}`}
     >
       {text}
     </span>
